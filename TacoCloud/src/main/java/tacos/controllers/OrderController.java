@@ -20,8 +20,6 @@ public class OrderController {
     public String orderForm(Model model) {
         model.addAttribute("order", new Order());
 
-        System.out.print(model.addAttribute("order", new Order()));
-
         return "orderForm";
     }
 

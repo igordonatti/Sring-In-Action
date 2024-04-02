@@ -16,10 +16,10 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultMatcher;
-import tacos.controllers.HomeController;
+import tacos.web.WebConfig;
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(HomeController.class) // web test for HomeController
+@WebMvcTest(WebConfig.class) // web test for HomeController
 public class HomeControllerTest {
 
     @Autowired
