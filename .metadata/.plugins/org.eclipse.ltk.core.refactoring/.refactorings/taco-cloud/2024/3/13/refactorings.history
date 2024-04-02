@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;TacoCloud.png&apos; to &apos;images&apos;" description="Move &apos;TacoCloud.png&apos; to &apos;images&apos;" destination="src/main/resources/static/images" element1="src/main/resources/static/TacoCloud.png" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1711568728561" updateReferences="true"/>
+</session>
