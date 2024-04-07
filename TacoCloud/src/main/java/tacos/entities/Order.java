@@ -6,8 +6,14 @@ import jakarta.validation.constraints.Pattern;
 import lombok.Data;
 import org.hibernate.validator.constraints.CreditCardNumber;
 
+import java.util.Date;
+
 @Data
 public class Order {
+
+    private Long id;
+
+    private Date placedAt;
 
     @NotBlank(message = "Name is required")
     private String name;
